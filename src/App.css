@@ -1,0 +1,22 @@
+.navbar{
+  background-color: #73767a;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  background-color: #8c9096;
+  margin: 10px;
+  height: 300px;
+}
+
+.left-navbar-title{
+  color: white;
+  margin: 10px;
+}
+
+.left2-navbar-title{
+  color: white;
+  margin: 10px;
+}
