@@ -1,22 +1,172 @@
-.navbar{
+.navbar {
   background-color: #73767a;
   height: 40px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.header{
-  background-color: #8c9096;
+.header {
+  background-color: #bdc3c9;
   margin: 10px;
-  height: 300px;
+  height: 250px;
 }
 
-.left-navbar-title{
+.left-navbar-title {
   color: white;
   margin: 10px;
+  align-items: center;
 }
 
-.left2-navbar-title{
+.nav-link {
+  color: #dfe1e6;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.left3-navbar-title {
+  margin-left: 30px;
+}
+
+.left4-navbar-title {
+  color: #dfe1e6;
+  margin-right: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-paper {
+  background-color: #a1a9b3;
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+}
+
+.head-button {
   color: white;
-  margin: 10px;
+  background-color: #5a5d61;
+  width: 120px;
+  height: 40px;
+  border: none;
+}
+
+.head-desc {
+  margin-bottom: 17px;
+}
+
+.sub-title {
+  margin-left: 10px;
+}
+
+.add-see-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-title-see-all {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.see-all {
+  margin-right: 30px;
+}
+
+.container {
+  background-color: #bdc3c9;
+  margin: 0px 50px 0px 50px;
+  display: flex;
+}
+
+.content {
+  margin-left: 20px;
+}
+
+.content-date {
+  color: #626c7a;
+  margin-top: 2px;
+}
+
+.about {
+  margin-left: 50px;
+}
+
+.member {
+  background-color: #bdc3c9;
+  margin: 0px 50px 0px 50px;
+  display: flex;
+}
+
+.member-photo {
+  background-color: #a1a9b3;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+
+.number-member {
+  margin-left: 20px;
+}
+
+.name-memnum {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-pos {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.card {
+  background-color: #bdc3c9;
+  width: 300px;
+  margin: 0px 50px 0px 50px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-date {
+  margin-left: 10px;
+}
+
+.card-desc {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-number {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.card-button {
+  color: white;
+  font-size: 20px;
+  background-color: #9199a3;
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.card-went {
+  margin-left: 15px;
+  color: #626c7a;
 }
