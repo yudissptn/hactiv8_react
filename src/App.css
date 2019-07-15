@@ -7,7 +7,6 @@
 }
 
 .header {
-  background-color: #bdc3c9;
   margin: 10px;
   height: 250px;
 }
@@ -42,10 +41,13 @@
 }
 
 .photo-paper {
-  background-color: #a1a9b3;
+  background-color: #677a91;
   width: 200px;
   height: 200px;
   margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .head-button {
@@ -56,8 +58,33 @@
   border: none;
 }
 
+.head-title {
+  height: 20px;
+}
+
+.head-button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
 .head-desc {
   margin-bottom: 17px;
+}
+
+.image-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-desc-content {
+  display: flex;
+  padding-top: 0px;
+}
+
+.head-desc-right {
+  margin-left: 20px;
+  width: 200px;
 }
 
 .sub-title {
@@ -134,7 +161,6 @@
 
 .list {
   display: flex;
-  flex-direction: row;
 }
 
 .card-date {
@@ -164,6 +190,11 @@
   margin-left: 10px;
   margin-bottom: 30px;
   margin-top: 0px;
+}
+
+.card-button:hover {
+  background-color: #dee3e9;
+  color: black;
 }
 
 .card-went {
