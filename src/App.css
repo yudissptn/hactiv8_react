@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.left2-navbar-title {
+  color: white;
+}
+
 .nav-link {
   color: #dfe1e6;
   margin-left: 10%;
@@ -27,6 +31,7 @@
 
 .left3-navbar-title {
   margin-left: 30px;
+  color: white;
 }
 
 .left4-navbar-title {
@@ -155,12 +160,14 @@
 
 .card {
   background-color: #bdc3c9;
-  width: 300px;
-  margin: 0px 50px 0px 50px;
+  min-width: 300px;
+  margin: 30px 50px 0px 50px;
 }
 
 .list {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .card-date {
@@ -200,4 +207,23 @@
 .card-went {
   margin-left: 15px;
   color: #626c7a;
+}
+
+.pagination {
+  margin-top: 25px;
+}
+.pagination span {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination span.active {
+  background-color: #0099ff;
+  color: white;
+  border: 1px solid #0099ff;
 }
