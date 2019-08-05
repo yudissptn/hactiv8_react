@@ -8,7 +8,7 @@ import store from "./redux/store";
 const CreateMeetup = () => {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div className="Redux">
         <Mainredux>CreateMeetup</Mainredux>
       </div>
     </Provider>
